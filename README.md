@@ -1,5 +1,8 @@
 # Counter Design and Testbench
 
+## EdaPlayground Link
+https://edaplayground.com/x/MuEB
+
 ## Overview
 
 This repository contains the Verilog code for a simple counter module along with an associated testbench for functional verification. The counter module is designed to count up or down based on the control signals and can load data on demand.
