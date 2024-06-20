@@ -22,8 +22,8 @@ The testbench covers various scenarios, including:
 
 ### Bugs
 
-To test the effectiveness of the testbench, a bug has been intentionally introduced in the counter module. Uncomment the `BUGG_CODE` section in `design.v` to activate the bug and observe its impact during simulation.
-Replace Compile Options on Left Side Tab with: -timescale 1ns/1ns -sysv +define+BUGG_CODE and set num_rpt variable greater than 5 to check error as the condition for bug is 'h4.
+- To test the effectiveness of the testbench, a bug has been intentionally introduced in the counter module. Uncomment the `BUGG_CODE` section in `design.v` to activate the bug and observe its impact during simulation.
+- Replace Compile Options on Left Side Tab with: -timescale 1ns/1ns -sysv +define+BUGG_CODE and set num_rpt variable greater than 5 to check error as the condition for bug is 'h4.
 
 ## Acknowledgments
 
